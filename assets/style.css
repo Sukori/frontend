@@ -1,0 +1,67 @@
+/*KILL margin*/
+
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url('./fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+html {
+	padding: 0;
+
+	font-family: 'Hanken Grotesk';
+}
+
+html, body {
+	margin: 0;
+}
+
+/*Mobile design*/
+
+/*sections*/
+
+section {
+	width: 100%;
+}
+
+.blue {
+	background-image: linear-gradient(
+		hsl(252, 100%, 67%),
+		hsl(241, 81%, 54%)
+	);
+}
+
+.circle {
+	text-align: center;
+
+	width: 128px;
+
+	height: 128px;
+
+	border-radius: 100%;
+
+	background-image: linear-gradient(
+		hsla(256, 72%, 46%, 1),
+		hsla(241, 72%, 46%, 0)
+	);
+}
+
+/*Paragraphs*/
+
+p {
+	font-size: 18px;
+}
+
+/*Attribution*/
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/*Desktop design*/
+@media only screen and (min-width: 1440px) {
+
+}
